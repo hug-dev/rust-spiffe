@@ -9,7 +9,7 @@ openssl = "0.10.30"
 error-chain = "0.12.4"
 hyper = "0.13.8"
 protobuf = "2.18.0"
-grpcio = { git = "https://github.com/tikv/grpc-rs", rev = "b9ddf27a81d5cfef057638ffc2d02bd34d85a422", default-features = false, features = ["protobuf-codec", "openssl"] }
+grpcio = { version = "0.8.0", default-features = false, features = ["protobuf-codec", "openssl"] }
 futures = "0.3.6"
 lazy_static = "1.4.0"
 url = "2.1.1"
